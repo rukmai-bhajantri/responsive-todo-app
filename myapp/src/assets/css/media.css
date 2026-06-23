@@ -1,0 +1,90 @@
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+  .container{
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left,
+  .right{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .left{
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  .row{
+    justify-content: center;
+  }
+
+  .card{
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .filter-btns{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filter-btns button{
+    flex: 1;
+    min-width: 100px;
+  }
+
+  .btn1-group{
+    flex-direction: column;
+  }
+
+  .sub-btn,
+  .display-btn{
+    width: 100%;
+  }
+
+  .btn-group{
+    flex-direction: column;
+  }
+
+  .btn-group button{
+    width: 100%;
+  }
+
+  .from-control{
+    width: 95%;
+  }
+
+  .left h1{
+    font-size: 24px;
+  }
+
+}
+
+/* Small Mobile */
+
+@media (max-width: 480px){
+
+  .card{
+    padding: 15px;
+  }
+
+  .list-id{
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .filter-btns button{
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .btn-group button{
+    font-size: 12px;
+  }
+
+}
